@@ -1,2 +1,2 @@
-# Vanila-Web-Components-
-Vanila Web Components
+# Polymer-Web-Components-
+Polymer Web Components
