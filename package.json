@@ -1,0 +1,23 @@
+{
+  "name": "vanila-web-components",
+  "version": "1.0.0",
+  "description": "Vanila Web Components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexstoicuta/Vanila-Web-Components.git"
+  },
+  "author": "Alex Stoicuta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexstoicuta/Vanila-Web-Components/issues"
+  },
+  "homepage": "https://github.com/alexstoicuta/Vanila-Web-Components#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
