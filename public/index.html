@@ -14,9 +14,7 @@
     <body>
         <div class="container pt-5">
             <div class="row">
-                <h2>
-                    <my-custom-element></my-custom-element>
-                </h2>
+                <my-custom-element id="custom-element" data-title="Welcome to Tech Talks 2019"></my-custom-element>
             </div>
         </div>
         <!-- Optional JavaScript -->
@@ -26,4 +24,12 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <script type="text/javascript" src="src/app.js"></script>
     </body>
+
+    <script type="text/javascript">
+        setTimeout(() => {
+            const customElement = document.querySelector('#custom-element');
+
+            customElement.setAttribute('data-title', 'Web Components Introduction');
+        }, 5000);
+    </script>
 </html>
